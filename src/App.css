@@ -1,3 +1,13 @@
 .container{
+    margin: auto;
     background-color: brown;
+    width: 500px;
+}
+
+.logo{
+    margin: 15px 0 15px 30px;
+}
+
+.buttonsSection{
+    margin: auto;
 }

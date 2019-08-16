@@ -30,9 +30,15 @@ function App() {
 
         {/* {Renders Buttons} */}
         <div className='buttonsSection'>
-        <Specials />
-        <Operators />
-        <Numbers />
+          
+          <div className='buttonsLeft'>
+            <Specials className='speicals'/>
+            <Numbers className='numbers'/>
+          </div>
+
+          <div className='buttonsRight'>
+          <Operators />
+          </div>
         </div>
       </div>
     </div>

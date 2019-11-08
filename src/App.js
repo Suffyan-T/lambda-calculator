@@ -18,6 +18,7 @@ function App() {
   // Don't forget to pass the functions (and any additional data needed) to the components as props
 
   const[value, setValue] = useState(0);
+  const[dispVal, setDispVal] = useState();
 
   return (
     <div className="container">

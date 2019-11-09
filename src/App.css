@@ -1,0 +1,48 @@
+.container{
+    margin: auto;
+    background-color: brown;
+    width: 500px;
+    padding-bottom: 20px;
+    border-radius: 50px;
+}
+
+.logo{
+    margin: 25px 0 25px 180px;
+}
+
+.buttonsSection{
+    display: flex;
+    margin: auto;
+    width: 80%;
+    margin-top: 20px;
+}
+
+.buttonsLeft{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+}
+
+.speicals{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+
+.numbers{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.buttonsRight{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+.numberButton{
+    background-color: darkslateblue;
+}
